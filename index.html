@@ -8,23 +8,79 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous"> <!-- imposrtaar boostrap-->
     <link rel="stylesheet" href="bootstrap/bootstrap-5.0.1-dist/css/bootstrap.css"> <!-- importar pasta de boostrap baixada -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script> <!-- importar bootstrap -->
+    <i class="bi bi-bookmark-check-fill"></i>
     <title>GeovannaGonzaga.designer</title>
 </head>
+<!-- class="img-fluid"  para passar o comando em html e deixar imagem responsiva.-->
 <body>
     <section>
         <div class="menu">
             <p class=meunome>Geovannna Gonzaga</p>
             <a class="menu-elementos-inicio" href="">Início</a>
-            <a class="menu-elementos" href="">Sobre</a>
-            <a class="menu-elementos" href="">Serviços</a>
+            <a class="menu-elementos" href="">Infomações</a>
+            <a class="menu-elementos" id="habilidades" >Habilidades</a>
             <a class="menu-elementos" href="">Contato</a>
-            <button class="botao-menu"><a class=" text-decoration-none text-white" href="">Me mande um e-mail</a></button>
+            <button class="botao-menu"><a class=" text-decoration-none text-dark" href="">Me mande um e-mail</a></button>
         </div>
     </section>
-    <section>
+    <section id="informacoes">
+        <div class= oiii>
+            olaaaa
+        </div>
+
+    </section><br>
+    <section id="habilidades">
         <div class="inicio">
-            <div>
-                <p>Cre</p>
+            <div class="bloco">
+                <div class="rol">
+
+                    <div class="col">
+                        <p class="titulos">
+                            Habilidades e Cursos
+                        </p>
+
+                        <p>
+                            <a class=" botao btn btn-dark" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
+                                Formação
+                              </a>
+                        </p>
+                        <div class="collapse w-5" id="collapseExample1">
+                            <div class="largura mb-3 card card-body">
+                            <p class="ano"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-bookmark-check-fill" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M2 15.5V2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.74.439L8 13.069l-5.26 2.87A.5.5 0 0 1 2 15.5zm8.854-9.646a.5.5 0 0 0-.708-.708L7.5 7.793 6.354 6.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
+                              </svg>Conclusão- 2025</p> 
+                            <p class="texto2">Cursando superior: Sistemas de Informação- UFU</p>
+                            </div>
+                        </div>
+
+                        <p>
+                            <button class=" botao btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
+                             Cursos
+                            </button>
+                        </p>
+                        <div class="collapse" id="collapseExample2">
+                            <div class="largura mb-3 card card-body"> <!-- usa mb pode dei espaco entre eles pra baixo -->
+                                <p class="texto2">Pacote Office- Intermédiario</p>
+                                <p class="texto2">Web-Designer</p>
+                                <p class="texto2">C++</p>
+                                <p class="texto2">Inglês- Intermédiario</p>
+                                <p class="texto2">Espanhol- básico</p>
+                            </div>
+                        </div>
+
+                        <p>
+                            <button class=" botao btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3">
+                             Experiencias
+                            </button>
+                        </p>
+                        <div class="collapse dark" id="collapseExample3">
+                            <div class="largura texto mb-3 card card-body">
+                              <p class="texto2">Vendas</p>
+                              <p class="texto2">Operação de caixa</p>
+                              <p class="texto2">Aluguel de Roupas</p>
+                            </div>
+                        </div>
+
             </div>
 
         </div>

@@ -1,6 +1,6 @@
 body{
     padding: 0;
-    margin: 0;
+    margin: 0
 }
 .menu{
     display: flex;
@@ -12,7 +12,7 @@ body{
     width: 100%;
 }
 .botao-menu{
-    background-color: rgb(172, 172, 172);
+    background-color: white;
     border: 0;
     height: 60px;
     width: 15%;
@@ -48,7 +48,49 @@ body{
     background-size: cover;
     height: 800px;
     width: 100%;
+    padding-top: 7%;
 }
 .bloco{
+    background-color:white;
+    height: 95%;
+    width: 87%;
+    margin: auto;
+    padding-top: 3%;
+}
+.pacoteoffice{
+    height: 400px;
+    width: 40%;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 7%;
+}
+.titulos{
+    font-size: 30px;
+    display: flex;
+    margin-left: 40%;
+}
+.botao{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 10%;
+}
+.texto2{
+    display: flex;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 1px;
+}
+.ano{
+    font-size: 15px;
+    color: rgb(81, 131, 81);
+}
+.oiii{
     background-color: black;
+    height: 300px;
+    width: 300px;
+}
+.largura{
+    width: 80%;
+    margin-left: 10%;
 }

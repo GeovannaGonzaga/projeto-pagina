@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="bootstrap/bootstrap-5.0.1-dist/css/bootstrap.css"> <!-- importar pasta de boostrap baixada -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script> <!-- importar bootstrap -->
     <i class="bi bi-bookmark-check-fill"></i>
+    <i class="bi bi-caret-down"></i>
+    <i class="bi bi-check2"></i>
     <title>GeovannaGonzaga.designer</title>
 </head>
 <!-- class="img-fluid"  para passar o comando em html e deixar imagem responsiva.-->
@@ -16,74 +18,150 @@
     <section>
         <div class="menu">
             <p class=meunome>Geovannna Gonzaga</p>
-            <a class="menu-elementos-inicio" href="">Início</a>
+            <a class="menu-elementos-inicio" href="#informacoes">Início</a>
             <a class="menu-elementos" href="">Infomações</a>
-            <a class="menu-elementos" id="habilidades" >Habilidades</a>
+            <a class="menu-elementos" href="#habilidades" >Habilidades</a> <!-- para chamar a id e ir direto paraela  -->
             <a class="menu-elementos" href="">Contato</a>
             <button class="botao-menu"><a class=" text-decoration-none text-dark" href="">Me mande um e-mail</a></button>
         </div>
     </section>
+
+    <section id="informacoes">
+        <div id="carouselExampleSlidesOnly" class=" carousel-edicao carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="carousel-1">
+                    <h1> Olá, sou a <h1 class="titulo">Geovanna David Gonzaga</h1></h1>
+                    
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <section id="habilidades"> <!-- puxei uma id para quando clicar na parte o site ir direto -->
+        <div class="inicio">
+            <div class="bloco">
+                <p class="titulos">
+                    Habilidades e Cursos
+                </p>
+
+                <p>
+                    <a class=" botao btn btn-dark" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
+                        Formação
+                        <svg class="icon1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down" viewBox="0 0 16 16">
+                            <path d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"/>
+                        </svg>
+                    </a>
+                </p>
+                <div class="collapse w-5" id="collapseExample1">
+                    <div class="largura mb-3 card card-body">
+                        <p class="ano"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-bookmark-check-fill" viewBox="0 0 16 16">
+                            <path class="icon" fill-rule="evenodd" d="M2 15.5V2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.74.439L8 13.069l-5.26 2.87A.5.5 0 0 1 2 15.5zm8.854-9.646a.5.5 0 0 0-.708-.708L7.5 7.793 6.354 6.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
+                          </svg>Conclusão- 2025</p>
+
+                        <p class="texto2"><svg class="ok" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg> Cursando superior: Sistemas de Informação- UFU</p>
+                    </div>
+                </div>
+
+                <p>
+                    <a class=" botao btn btn-dark" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
+                        Cursos
+                        <svg class="icon1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down" viewBox="0 0 16 16">
+                            <path d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"/>
+                        </svg>
+                    </a>
+                </p>
+                <div class="collapse" id="collapseExample2">
+                    <div class="largura mb-3 card card-body"> <!-- usa mb pode dei espaco entre eles pra baixo -->
+                        <p class="ano"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-bookmark-check-fill" viewBox="0 0 16 16">
+                            <path class="icon" fill-rule="evenodd" d="M2 15.5V2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.74.439L8 13.069l-5.26 2.87A.5.5 0 0 1 2 15.5zm8.854-9.646a.5.5 0 0 0-.708-.708L7.5 7.793 6.354 6.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
+                          </svg>Extenção</p>
+                        <p class="texto2"><svg class="ok" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg> Pacote Office- Intermédiario</p>
+                        <p class="texto2"><svg class="ok" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg> Web-Designer</p>
+                        <p class="texto2"><svg class="ok" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg> C++</p>
+                        <p class="texto2"><svg class="ok" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg> Inglês- Intermédiario</p>
+                        <p class="texto2"><svg class="ok" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg> Espanhol- básico</p>
+                    </div>
+                </div>
+
+                <p>
+                    <a class=" botao btn btn-dark" role="button" data-bs-toggle="collapse" href="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3">
+                        Experiências
+                        <svg class="icon1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down" viewBox="0 0 16 16">
+                            <path d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"/>
+                        </svg>
+                    </a>
+                </p>
+                <div class="collapse dark" id="collapseExample3">
+                    <div class="largura texto mb-3 card card-body">
+                        <p class="ano"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-bookmark-check-fill" viewBox="0 0 16 16">
+                            <path class="icon" fill-rule="evenodd" d="M2 15.5V2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.74.439L8 13.069l-5.26 2.87A.5.5 0 0 1 2 15.5zm8.854-9.646a.5.5 0 0 0-.708-.708L7.5 7.793 6.354 6.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
+                          </svg>Trabalhos Informais</p>
+                        <p class="texto2"><svg class="ok" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg> Vendas - 2020 á 2021</p>
+                        <p class="texto2"><svg class="ok" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg> Operação de caixa - 2020 á 2021</p>
+                        <p class="texto2"><svg class="ok" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg> Aluguel de Roupas - 2014 á 2021</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col card1">
+                        <div class="card text-dark bg-light mb-3 btn-" style="max-width: 18rem;">
+                            <div class="card-header bg-dark text-white">Web Designer</div>
+                            <div class="card-body">
+                              <h5 class="card-title">Para projetos</h5>
+                              <p class="card-text"> Realizo todo o leyaut para sites tranformando eles em atrativos e únicos, com responsabilidade para back-end</p>
+                              <a href="#" class="btn btn-dark">Entre em contato</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col card2">
+                        <div class="card text-dark bg-light mb-3 btn-" style="max-width: 18rem;">
+                            <div class="card-header bg-dark text-white">Designer de Folders</div>
+                            <div class="card-body">
+                              <h5 class="card-title">Para projetos</h5>
+                              <p class="card-text"> Realizo todo o leyaut para sites tranformando eles em atrativos e únicos, com responsabilidade para back-end</p>
+                              <a href="#" class="btn btn-dark">Entre em contato</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col card3">
+                        <div class="card text-dark bg-light mb-3 btn-" style="max-width: 18rem;">
+                            <div class="card-header bg-dark text-white">Designer de Logos</div>
+                            <div class="card-body">
+                              <h5 class="card-title">Para projetos</h5>
+                              <p class="card-text"> Realizo todo o leyaut para sites tranformando eles em atrativos e únicos, com responsabilidade para back-end</p>
+                              <a href="#" class="btn btn-dark">Entre em contato</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+        </div>
+    </section>
+
     <section id="informacoes">
         <div class= oiii>
             olaaaa
         </div>
 
     </section><br>
-    <section id="habilidades">
-        <div class="inicio">
-            <div class="bloco">
-                <div class="rol">
-
-                    <div class="col">
-                        <p class="titulos">
-                            Habilidades e Cursos
-                        </p>
-
-                        <p>
-                            <a class=" botao btn btn-dark" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
-                                Formação
-                              </a>
-                        </p>
-                        <div class="collapse w-5" id="collapseExample1">
-                            <div class="largura mb-3 card card-body">
-                            <p class="ano"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-bookmark-check-fill" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="M2 15.5V2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.74.439L8 13.069l-5.26 2.87A.5.5 0 0 1 2 15.5zm8.854-9.646a.5.5 0 0 0-.708-.708L7.5 7.793 6.354 6.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
-                              </svg>Conclusão- 2025</p> 
-                            <p class="texto2">Cursando superior: Sistemas de Informação- UFU</p>
-                            </div>
-                        </div>
-
-                        <p>
-                            <button class=" botao btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
-                             Cursos
-                            </button>
-                        </p>
-                        <div class="collapse" id="collapseExample2">
-                            <div class="largura mb-3 card card-body"> <!-- usa mb pode dei espaco entre eles pra baixo -->
-                                <p class="texto2">Pacote Office- Intermédiario</p>
-                                <p class="texto2">Web-Designer</p>
-                                <p class="texto2">C++</p>
-                                <p class="texto2">Inglês- Intermédiario</p>
-                                <p class="texto2">Espanhol- básico</p>
-                            </div>
-                        </div>
-
-                        <p>
-                            <button class=" botao btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3">
-                             Experiencias
-                            </button>
-                        </p>
-                        <div class="collapse dark" id="collapseExample3">
-                            <div class="largura texto mb-3 card card-body">
-                              <p class="texto2">Vendas</p>
-                              <p class="texto2">Operação de caixa</p>
-                              <p class="texto2">Aluguel de Roupas</p>
-                            </div>
-                        </div>
-
-            </div>
-
-        </div>
-    </section>
 </body>
 </html>
